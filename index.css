@@ -1,19 +1,44 @@
-td, th{
-    width: 100px;
+.badge {
+  width: 100%;
 }
-.tobbora{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+
+.table {
+  table-layout: fixed;
+}
+
+.szam-cell {
+  text-align: center;
+  font-weight: bold;
+  width: 40px !important;
 }
 
 
-.ora {
-    text-align: center;
+.table th,
+.table td {
+  width: 16.66%;
+  vertical-align: top;
 }
 
-.orainfo{
-    display: flex;
-    text-align: left;
-    justify-content: space-between;
+.table th:first-child,
+.table td:first-child {
+  width: 70px;
+  text-align: center;
+  font-weight: bold;
 }
+
+.oras-cell {
+  text-align: left;
+}
+
+.oras-cell .badge {
+  margin: 2px;
+  font-size: 11px;
+  font-weight: 500;
+  white-space: normal;
+  line-height: 1.2;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
