@@ -1,0 +1,19 @@
+td, th{
+    width: 100px;
+}
+.tobbora{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.ora {
+    text-align: center;
+}
+
+.orainfo{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
